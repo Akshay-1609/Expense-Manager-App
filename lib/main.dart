@@ -1,4 +1,5 @@
 import 'package:expensemanager/presentation/home/home_screen.dart';
+import 'package:expensemanager/presentation/signup/signup_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
     
-      home: HomeScreen(),
+      home: SignupScreen(),
     );
   }
 }
