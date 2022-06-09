@@ -3,7 +3,7 @@ import 'package:expensemanager/theme/app_decoration.dart';
 import 'package:expensemanager/theme/app_text_style.dart';
 import 'package:flutter/material.dart';
 
-Widget signUpButton() {
+Widget signUpButton(btnName) {
   return Padding(
     padding: const EdgeInsets.all(8.0),
     child: Card(
@@ -15,7 +15,7 @@ Widget signUpButton() {
             borderRadius: const BorderRadius.all(Radius.circular(15)),
             gradient: ColorConstant.blueGreenGradient),
         child: Center(
-            child: Text('Sign Up', style: AppTextStyle.signUpButtonText)),
+            child: Text(btnName, style: AppTextStyle.signUpButtonText)),
       ),
     ),
   );

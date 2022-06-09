@@ -8,4 +8,5 @@ class ImageConstant {
   static String profileIcon = "assets/icon/profile.png";
   static String signupImage = "assets/img/signup.png";
   static String googleImage = 'assets/img/google.png';
+  static String signinImage = 'assets/img/signin.png';
 }

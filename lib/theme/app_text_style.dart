@@ -99,4 +99,19 @@ class AppTextStyle {
     fontFamily: 'Heebo',
    
   );
+   static TextStyle forgotPassword = TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.w600,
+    color: ColorConstant.darkGreen,
+    fontFamily: 'Heebo',
+    letterSpacing: 1.1
+
+  );
+  static TextStyle VerificationText = TextStyle(
+    fontSize: 18,
+    fontWeight: FontWeight.w500,
+    color: ColorConstant.darkGreen,
+    fontFamily: 'Heebo',
+
+  );
 }

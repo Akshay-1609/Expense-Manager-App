@@ -4,7 +4,7 @@ import 'package:expensemanager/theme/app_decoration.dart';
 import 'package:expensemanager/theme/app_text_style.dart';
 import 'package:flutter/material.dart';
 
-Widget googleSignUpButton()
+Widget googleSignUpButton(btnName)
 {
   return  Padding(
     padding: const EdgeInsets.only(top:0,bottom: 4,left: 8,right: 8),
@@ -23,7 +23,7 @@ Widget googleSignUpButton()
               children: [
                 Image.asset(ImageConstant.googleImage),
                const SizedBox(width: 10,),
-                Text('Sign Up With Google',style: AppTextStyle.googleSignUpButtonText,),
+                Text('${btnName} With Google',style: AppTextStyle.googleSignUpButtonText,),
               ],
             )),
       ),
