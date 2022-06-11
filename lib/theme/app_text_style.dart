@@ -107,11 +107,46 @@ class AppTextStyle {
     letterSpacing: 1.1
 
   );
-  static TextStyle VerificationText = TextStyle(
+  static TextStyle verificationText = TextStyle(
     fontSize: 18,
     fontWeight: FontWeight.w500,
     color: ColorConstant.darkGreen,
     fontFamily: 'Heebo',
 
   );
+   static TextStyle enterVerificationCodeText = TextStyle(
+    fontSize: 30,
+    fontWeight: FontWeight.w600,
+    color: ColorConstant.darkGreen,
+    fontFamily: 'Heebo',
+
+  );
+  static TextStyle verificationTimeText = TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeight.w600,
+    color: ColorConstant.darkGreen.withOpacity(0.7),
+    fontFamily: 'Heebo',
+  );
+  static TextStyle verificationNoteText = TextStyle(
+    fontSize: 17,
+    color: ColorConstant.black,
+     fontWeight: FontWeight.w500,
+    fontFamily: 'Heebo',
+  );
+   static TextStyle verificationEmail = TextStyle(
+    fontSize: 17,
+    color: ColorConstant.darkGreen.withOpacity(0.7),
+     fontWeight: FontWeight.w500,
+    fontFamily: 'Heebo',
+  );
+    static TextStyle otpSendAgainText = TextStyle(
+    fontSize: 17,
+    fontWeight: FontWeight.w600,
+    color: ColorConstant.darkGreen.withOpacity(0.7),
+    fontFamily: 'Heebo',
+      decoration: TextDecoration.underline,
+      decorationThickness: 2,
+  );
+
+
 }

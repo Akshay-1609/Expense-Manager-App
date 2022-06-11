@@ -14,8 +14,8 @@ Widget signUpButton(btnName) {
         decoration: BoxDecoration(
             borderRadius: const BorderRadius.all(Radius.circular(15)),
             gradient: ColorConstant.blueGreenGradient),
-        child: Center(
-            child: Text(btnName, style: AppTextStyle.signUpButtonText)),
+        child:
+            Center(child: Text(btnName, style: AppTextStyle.signUpButtonText)),
       ),
     ),
   );
