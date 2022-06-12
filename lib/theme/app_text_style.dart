@@ -161,5 +161,10 @@ class AppTextStyle {
       fontSize: 20,
       fontWeight: FontWeight.w500,
       fontFamily: 'Heebo',
-      color: ColorConstant.black);
+      color: ColorConstant.darkGreen);
+  static TextStyle categoryTitleText = TextStyle(
+      fontSize: 12,
+      fontWeight: FontWeight.w500,
+      fontFamily: 'Heebo',
+      color: ColorConstant.darkGreen);
 }

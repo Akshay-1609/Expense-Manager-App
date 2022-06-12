@@ -2,6 +2,7 @@
 
 import 'package:expensemanager/presentation/expense/add_expense_1.dart/add_expense_screen1.dart';
 import 'package:expensemanager/presentation/expense/add_expense_2.dart/add_expense_screen2.dart';
+import 'package:expensemanager/presentation/expense/add_expense_2.dart/add_expense_screen3.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AddExpenseScreen2(),
+      home: AddExpenseScreen3(),
     );
   }
 }
