@@ -9,4 +9,7 @@ class ImageConstant {
   static String signupImage = "assets/img/signup.png";
   static String googleImage = 'assets/img/google.png';
   static String signinImage = 'assets/img/signin.png';
+  static String resetPasswordImage = 'assets/img/resetPassword.png';
+   static String passwordUpdatedImage = 'assets/img/passwordUpdated.png';
+      static String expenseScreen1Image = 'assets/img/expense1.png';
 }

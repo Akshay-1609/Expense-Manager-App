@@ -1,9 +1,9 @@
 import 'package:expensemanager/constant/color_constsnt.dart';
+import 'package:expensemanager/constant/custom_button.dart';
+import 'package:expensemanager/constant/custom_textfield.dart';
 import 'package:expensemanager/constant/image_constant.dart';
 import 'package:expensemanager/presentation/signup/widgets/custome_divider.dart';
-import 'package:expensemanager/presentation/signup/widgets/custome_textfield.dart';
 import 'package:expensemanager/presentation/signup/widgets/google_sigup_button.dart';
-import 'package:expensemanager/presentation/signup/widgets/signup_buttpon.dart';
 import 'package:expensemanager/theme/app_text_style.dart';
 import 'package:flutter/material.dart';
 
@@ -62,13 +62,13 @@ class SignupScreen extends StatelessWidget {
                   ),
                   Column(
                     children: [
-                      customeTextFormField("Full Name", Icons.person),
-                      customeTextFormField("Email Id", Icons.email_outlined),
-                      customeTextFormField("Password", Icons.lock),
-                      customeTextFormField("Conform Password", Icons.lock),
+                      customTextFormField("Full Name", Icons.person),
+                      customTextFormField("Email Id", Icons.email_outlined),
+                      customTextFormField("Password", Icons.lock),
+                      customTextFormField("Conform Password", Icons.lock),
                     ],
                   ),
-                  signUpButton('Sign Up'),
+                  customButton('Sign Up'),
                  const  SizedBox(height: 5,),
                    youCanConnectWith(context),
                   const SizedBox(height: 10,),

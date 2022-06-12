@@ -1,9 +1,10 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:expensemanager/constant/color_constsnt.dart';
-import 'package:expensemanager/presentation/signin/signin_screen.dart';
-import 'package:expensemanager/presentation/signup/widgets/signup_buttpon.dart';
+import 'package:expensemanager/constant/custom_button.dart';
+import 'package:expensemanager/constant/gradient_text.dart';
 import 'package:expensemanager/theme/app_text_style.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:otp_text_field/otp_text_field.dart';
 import 'package:otp_text_field/style.dart';
 
@@ -30,66 +31,94 @@ class OTPverification extends StatelessWidget {
             ),
           ),
         ),
-        body: Padding(
-          padding: const EdgeInsets.only(top: 20, left: 15),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                "Enter Your\nVerification Code",
-                style: AppTextStyle.enterVerificationCodeText,
-              ),
-              Padding(
-                padding: const EdgeInsets.only(top: 20.0, left: 8, right: 8),
-                child: OTPTextField(
-                  length: 4,
-                  width: MediaQuery.of(context).size.width,
-                  fieldWidth: 50,
-                  keyboardType: TextInputType.number,
-                  otpFieldStyle: OtpFieldStyle(
-                    focusBorderColor: ColorConstant.darkGreen,
-                    borderColor: ColorConstant.darkGreen,
-                  ),
-                  textFieldAlignment: MainAxisAlignment.spaceAround,
-                  fieldStyle: FieldStyle.box,
-                  onCompleted: (pin) {},
+        body: SingleChildScrollView(
+          child: Padding(
+            padding: const EdgeInsets.only(top: 30, left: 25, right: 25),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  "Enter Your",
+                  style: AppTextStyle.enterVerificationCodeText,
                 ),
-              ),
-              const SizedBox(
-                height: 20,
-              ),
-              Text(
-                "04:50",
-                style: AppTextStyle.verificationTimeText,
-              ),
-              const SizedBox(
-                height: 15,
-              ),
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text('We send verification code to your',style: AppTextStyle.verificationNoteText,),
-                  SizedBox(
-                    height: 4,
+                SizedBox(
+                  height: 10,
+                ),
+                Text(
+                  "Verification Code",
+                  style: AppTextStyle.enterVerificationCodeText,
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(top: 20.0),
+                  child: OTPTextField(
+                    length: 4,
+                    width: MediaQuery.of(context).size.width,
+                    fieldWidth: 50,
+                    keyboardType: TextInputType.number,
+                    otpFieldStyle: OtpFieldStyle(
+                      focusBorderColor: ColorConstant.darkGreen,
+                      borderColor: ColorConstant.darkGreen,
+                    ),
+                    textFieldAlignment: MainAxisAlignment.spaceAround,
+                    fieldStyle: FieldStyle.box,
+                    onCompleted: (pin) {},
                   ),
-                  Row(
-                    children: [Text("email ",style: AppTextStyle.verificationNoteText,), Text('john*****@gmail.com.',style: AppTextStyle.verificationEmail,)],
-                  ),
-                   SizedBox(
-                    height: 4,
-                  ),
-                  Text("You cancheck your inbox.",style: AppTextStyle.verificationNoteText,),
-                ],
-              ),
-              const SizedBox(
-                height: 20,
-              ),
-              Text('I didn’t received the code? Send again',style: AppTextStyle.otpSendAgainText),
-              const SizedBox(
-                height: 20,
-              ),
-              signUpButton("Verify")
-            ],
+                ),
+                const SizedBox(
+                  height: 35,
+                ),
+                GradientText(
+                  "04:50",
+                  gradient: ColorConstant.blueGreenGradient,
+                  style: AppTextStyle.verificationTimeText,
+                ),
+                const SizedBox(
+                  height: 12,
+                ),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'We send verification code to your',
+                      style: AppTextStyle.verificationNoteText,
+                    ),
+                    SizedBox(
+                      height: 4,
+                    ),
+                    Row(
+                      children: [
+                        Text(
+                          "email ",
+                          style: AppTextStyle.verificationNoteText,
+                        ),
+                        GradientText(
+                          'john*****@gmail.com.',
+                          gradient: ColorConstant.blueGreenGradient,
+                          style: AppTextStyle.verificationEmail,
+                        )
+                      ],
+                    ),
+                    SizedBox(
+                      height: 4,
+                    ),
+                    Text(
+                      "You cancheck your inbox.",
+                      style: AppTextStyle.verificationNoteText,
+                    ),
+                  ],
+                ),
+                const SizedBox(
+                  height: 12,
+                ),
+                GradientText("I didn’t received the code? Send again",
+                    gradient: ColorConstant.blueGreenGradient,
+                    style: AppTextStyle.otpSendAgainText),
+                const SizedBox(
+                  height: 25,
+                ),
+                customButton("Verify")
+              ],
+            ),
           ),
         ));
   }
