@@ -167,4 +167,24 @@ class AppTextStyle {
       fontWeight: FontWeight.w500,
       fontFamily: 'Heebo',
       color: ColorConstant.darkGreen);
+  static TextStyle congratulationText = TextStyle(
+      fontSize: 25,
+      fontWeight: FontWeight.w500,
+      fontFamily: 'Heebo',
+      color: ColorConstant.darkGreen);
+  static TextStyle congratulationNoteText = TextStyle(
+      fontSize: 16,
+      fontWeight: FontWeight.w400,
+      fontFamily: 'Heebo',
+      color: ColorConstant.lightGrey);
+       static TextStyle ticketNameText = TextStyle(
+      fontSize: 14,
+      fontWeight: FontWeight.w400,
+      fontFamily: 'Heebo',
+      color: ColorConstant.lightGrey);
+       static TextStyle ticketTypeText = TextStyle(
+      fontSize: 20,
+      fontWeight: FontWeight.w600,
+      fontFamily: 'Heebo',
+      color: ColorConstant.darkGreen);
 }
