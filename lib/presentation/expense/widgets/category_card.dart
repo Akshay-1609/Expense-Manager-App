@@ -1,5 +1,5 @@
 import 'package:expensemanager/constant/color_constsnt.dart';
-import 'package:expensemanager/presentation/expense/add_expense_2.dart/category_data.dart';
+import 'package:expensemanager/presentation/expense/category_data.dart';
 import 'package:expensemanager/theme/app_decoration.dart';
 import 'package:expensemanager/theme/app_text_style.dart';
 import 'package:flutter/material.dart';

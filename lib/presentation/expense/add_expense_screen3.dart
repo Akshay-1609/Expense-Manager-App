@@ -3,7 +3,8 @@
 import 'package:expensemanager/constant/color_constsnt.dart';
 import 'package:expensemanager/constant/custom_button.dart';
 import 'package:expensemanager/constant/image_constant.dart';
-import 'package:expensemanager/presentation/expense/add_expense_2.dart/widgets/ticket_data.dart';
+import 'package:expensemanager/presentation/expense/add_expense_1.dart/widgets/ticket_data.dart';
+
 import 'package:expensemanager/theme/app_text_style.dart';
 import 'package:flutter/material.dart';
 import 'package:ticket_widget/ticket_widget.dart';

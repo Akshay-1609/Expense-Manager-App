@@ -45,7 +45,7 @@ Widget TicketData() {
                   Container(
                     height: 30,
                     width: 1,
-                    color: ColorConstant.darkGreen,
+                    color: ColorConstant.lightGrey,
                   ),
                     Column(
                        crossAxisAlignment: CrossAxisAlignment.start,
@@ -76,7 +76,7 @@ Widget TicketData() {
                             child: Container(
                               height: 3,
                               width: 10,
-                              color: ColorConstant.darkGreen,
+                              color: ColorConstant.lightGrey,
                             ),
                           )),
                 ),
