@@ -1,6 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:expensemanager/presentation/expense/add_expense_2.dart/add_expense_screen3.dart';
+import 'package:expensemanager/presentation/profile/change_password.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AddExpenseScreen3(),
+      home: ChangePassowrd(),
     );
   }
 }

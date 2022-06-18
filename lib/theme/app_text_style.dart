@@ -54,7 +54,7 @@ class AppTextStyle {
       color: ColorConstant.darkGreen.withOpacity(0.7),
       fontFamily: 'Heebo');
   static TextStyle signUpButtonText = TextStyle(
-    fontWeight: FontWeight.w600,
+    fontWeight: FontWeight.w500,
     fontSize: 20,
     color: ColorConstant.white,
     fontFamily: 'Heebo',
@@ -177,14 +177,28 @@ class AppTextStyle {
       fontWeight: FontWeight.w400,
       fontFamily: 'Heebo',
       color: ColorConstant.lightGrey);
-       static TextStyle ticketNameText = TextStyle(
+  static TextStyle ticketNameText = TextStyle(
       fontSize: 14,
       fontWeight: FontWeight.w400,
       fontFamily: 'Heebo',
       color: ColorConstant.lightGrey);
-       static TextStyle ticketTypeText = TextStyle(
+  static TextStyle ticketTypeText = TextStyle(
+      fontSize: 20, fontFamily: 'Heebo', color: ColorConstant.darkGreen);
+  static TextStyle profileNametext = TextStyle(
       fontSize: 20,
-      fontWeight: FontWeight.w600,
+      fontWeight: FontWeight.w500,
+      fontFamily: 'Heebo',
+      color: ColorConstant.darkGreen);
+
+  static TextStyle accountOverviewtext = TextStyle(
+      fontSize: 18,
+      fontWeight: FontWeight.w500,
+      fontFamily: 'Heebo',
+      color: ColorConstant.darkGreen);
+
+      static TextStyle profileListViewTitletext = TextStyle(
+      fontSize: 16,
+      fontWeight: FontWeight.w400,
       fontFamily: 'Heebo',
       color: ColorConstant.darkGreen);
 }

@@ -5,7 +5,9 @@ class ImageConstant {
   static String homeIcon = "assets/icon/home.png";
   static String chartIcon = "assets/icon/chart.png";
   static String walletIcon = "assets/icon/wallet.png";
+  static String lockIcon = "assets/icon/lock.png";
   static String profileIcon = "assets/icon/profile.png";
+   static String logOutIcon = "assets/icon/logout.png";
   static String signupImage = "assets/img/signup.png";
   static String googleImage = 'assets/img/google.png';
   static String signinImage = 'assets/img/signin.png';

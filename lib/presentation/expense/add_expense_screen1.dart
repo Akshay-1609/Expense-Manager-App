@@ -2,7 +2,7 @@
 
 import 'package:expensemanager/constant/color_constsnt.dart';
 import 'package:expensemanager/constant/image_constant.dart';
-import 'package:expensemanager/presentation/expense/add_expense_1.dart/widgets/expense1_income_card.dart';
+import 'package:expensemanager/presentation/expense/widgets/expense1_income_card.dart';
 import 'package:expensemanager/theme/app_text_style.dart';
 import 'package:flutter/material.dart';
 
