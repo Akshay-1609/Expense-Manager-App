@@ -54,7 +54,7 @@ class MyProfile extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only
             (left: 25,right: 25),
-            child: customTextFormField("username", Icons.person),
+            // child: customTextFormField("username", Icons.person),
           ),
            SizedBox(
             height: 15,
@@ -62,7 +62,7 @@ class MyProfile extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only
             (left: 25,right: 25),
-            child: customTextFormField("password", Icons.lock),
+            // child: customTextFormField("password", Icons.lock),
           ),
            SizedBox(
             height: 15,

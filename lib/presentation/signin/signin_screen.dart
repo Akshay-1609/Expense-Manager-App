@@ -64,8 +64,8 @@ class SigninScreen extends StatelessWidget {
                       ),
                       Column(
                         children: [
-                          customTextFormField("Email Id", Icons.email_outlined),
-                          customTextFormField("Password", Icons.lock),
+                          // customTextFormField("Email Id", Icons.email_outlined),
+                          // customTextFormField("Password", Icons.lock),
                           Padding(
                             padding: const EdgeInsets.only(right:8.0),
                             child: Row(

@@ -1,3 +1,5 @@
+// ignore_for_file: unnecessary_brace_in_string_interps
+
 import 'package:expensemanager/constant/color_constsnt.dart';
 import 'package:expensemanager/constant/image_constant.dart';
 import 'package:expensemanager/theme/app_decoration.dart';

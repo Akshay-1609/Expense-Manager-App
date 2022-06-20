@@ -52,11 +52,11 @@ class ResetPasswordScreen extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-               customTextFormField("password", Icons.lock),
+              //  customTextFormField("password", Icons.lock),
                SizedBox(
                 height: 15,
               ),
-               customTextFormField("confirm password", Icons.lock),
+              //  customTextFormField("confirm password", Icons.lock),
                SizedBox(
                 height: 15,
                ),

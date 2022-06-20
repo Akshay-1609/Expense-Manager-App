@@ -1,5 +1,4 @@
 import 'package:expensemanager/constant/color_constsnt.dart';
-import 'package:expensemanager/constant/custom_button.dart';
 import 'package:expensemanager/constant/custom_textfield.dart';
 import 'package:expensemanager/theme/app_text_style.dart';
 import 'package:flutter/material.dart';
@@ -37,15 +36,15 @@ class ChangePassowrd extends StatelessWidget {
               ],
             ),
             
-          customTextFormField("old password", Icons.lock),
+          // customTextFormField("old password", Icons.lock),
           Row(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Text("New password"),
               ],
             ),
-             customTextFormField("old password", Icons.lock),
-              customTextFormField("old password", Icons.lock),
+            //  customTextFormField("old password", Icons.lock),
+            //   customTextFormField("old password", Icons.lock),
           ],
         ),
       ),

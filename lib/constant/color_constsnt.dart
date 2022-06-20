@@ -8,7 +8,11 @@ class ColorConstant {
   static Color lightwhite = const Color(0xffB0B6C3);
   static Color whiteBg = const Color(0xff417D7A).withOpacity(0.08);
   static LinearGradient blueGreenGradient = const LinearGradient(
-    colors: <Color>[Color(0xff417D7A), Color(0xff1A3C40)],
+     begin: Alignment.topLeft,
+      end: Alignment.bottomRight,
+  
+    colors:[Color(0xff417D7A), Color(0xff1A3C40
+)],
   );
 
   
